@@ -1,0 +1,270 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.building-vote-logo,
+.building-vote-logo img {
+  width: 150px;
+}
+
+.building-vote-logo {
+  margin-top: 50px;
+}
+
+.building-vote {
+  width: 300px;
+  height: auto;
+  background-color: #ffffff;
+  box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.building-vote form {
+  width: 100%;
+}
+
+.building-vote form input {
+  width: 93%;
+  font-size: 17px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 5px 0;
+}
+.building-vote form input[type="button"] {
+  width: 100px;
+  padding: 7px;
+  font-size: 15px;
+  color: #f3f3f3;
+  cursor: pointer;
+  background-color: #d63734;
+}
+
+.vote-emails-separator {
+  width: 100%;
+  display: flex;
+  font-size: 17px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vote-emails-separator .separator > *,
+.vote-emails-separator > * {
+  display: inline;
+}
+
+.vote-emails-separator .separator {
+  margin-left: 0;
+}
+
+.vote-emails-separator .separator input {
+  width: 30px !important;
+  font-size: 15px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 2px !important;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.vote-emails-separator i {
+  margin-right: 0;
+}
+.vote-emails-separator i:hover {
+  position: relative;
+}
+.vote-emails-separator i:hover::after {
+  content: "The email separator is used to separe every email from the list into a nice array.\a\a- default separator is , (comma)\a- use \\n for line breaks";
+  width: 250px;
+  background-color: #3a3a3a;
+  position: absolute;
+  white-space: pre-wrap;
+  top: 20px;
+  left: -250px;
+  padding: 10px;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  color: #f3f3f3;
+}
+
+.vote-answers {
+  display: block;
+}
+
+.answer-container {
+  position: relative;
+}
+
+.answer-container input {
+  width: 230px !important;
+}
+
+.answer-container a {
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
+  color: #d63734;
+  cursor: pointer;
+}
+
+.vote-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.answer-creator {
+  width: auto !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  border: none !important;
+  background-color: transparent !important;
+  font-size: 40px !important;
+  color: #a2a4a3 !important;
+  cursor: pointer !important;
+}
+@media (min-width: 1850px) {
+  .building-vote-logo,
+  .building-vote-logo img {
+    width: 15vw;
+  }
+
+  .building-vote-logo {
+    margin-top: 5vw;
+  }
+
+  .building-vote {
+    width: 30vw;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0.1vw 1vw 0.3vw rgba(0, 0, 0, 0.1);
+    margin-top: 5vw;
+    padding: 2vw;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
+  }
+
+  .building-vote form {
+    width: 100%;
+  }
+
+  .building-vote form input {
+    width: 93%;
+    font-size: 1.7vw;
+    outline: none;
+    border-radius: 0.5vw;
+    border: 0.1vw solid rgba(0, 0, 0, 0.2);
+    padding: 1vw;
+    margin: 0.5vw 0;
+  }
+  .building-vote form input[type="button"] {
+    width: 10vw;
+    padding: 0.7vw;
+    font-size: 1.5vw;
+    color: #f3f3f3;
+    cursor: pointer;
+    background-color: #d63734;
+  }
+
+  .vote-emails-separator {
+    width: 100%;
+    display: flex;
+    font-size: 1.7vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .vote-emails-separator .separator > *,
+  .vote-emails-separator > * {
+    display: inline;
+  }
+
+  .vote-emails-separator .separator {
+    margin-left: 0;
+  }
+
+  .vote-emails-separator .separator input {
+    width: 3vw !important;
+    font-size: 1.5vw;
+    outline: none;
+    border-radius: 0.5vw;
+    border: 0.1vw solid rgba(0, 0, 0, 0.2);
+    padding: 0.2vw !important;
+    margin: 0.5vw 0;
+    text-align: center;
+  }
+
+  .vote-emails-separator i {
+    margin-right: 0;
+  }
+  .vote-emails-separator i:hover {
+    position: relative;
+  }
+  .vote-emails-separator i:hover::after {
+    content: "The email separator is used to separe every email from the list into a nice array.\a\a- default separator is , (comma)\a- use \\n for line breaks";
+    width: 25vw;
+    background-color: #3a3a3a;
+    position: absolute;
+    white-space: pre-wrap;
+    top: 2vw;
+    left: -25vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    border-top-right-radius: 0;
+    color: #f3f3f3;
+  }
+
+  .vote-answers {
+    display: block;
+  }
+
+  .answer-container {
+    position: relative;
+  }
+
+  .answer-container input {
+    width: 23vw !important;
+  }
+
+  .answer-container a {
+    position: absolute;
+    right: 0;
+    margin-top: 1.5vw;
+    border: none;
+    background-color: transparent;
+    font-size: 1.7vw;
+    color: #d63734;
+    cursor: pointer;
+  }
+
+  .vote-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .answer-creator {
+    width: auto !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    border: none !important;
+    background-color: transparent !important;
+    font-size: 4vw !important;
+    color: #a2a4a3 !important;
+    cursor: pointer !important;
+  }
+}

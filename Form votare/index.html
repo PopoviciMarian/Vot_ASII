@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>ASII Voting</title>
+</head>
+<body>
+    <header class="vote-logo">
+        <img src="..\Form scriere vot\images\logo_asii.png" alt="logo">
+    </header>
+
+    <section class="vote">
+        <form action="#" method="post">
+
+            <h1 class="title">Vote Title</h1>
+            <h4 class="title">Expires in: </h4>
+            <h4 class="timer" id="countdown" > </h4>
+
+            <!--
+            <div class="question">Question 1?</div>
+            <input type="text" placeholder="Write your answer" minlength=10 required/>
+
+            <div class="question">Question 2?</div>
+            <input type="date" required/>
+
+            <div class="question">Question 3?</div>
+            <label class="container">Answer 1
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Answer 2
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Answer 3
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Answer 4
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              -->
+
+              <div class="question">Question?</div>
+              <label class="container" id="answer1" >Answer 1
+                <input type="radio" checked="checked" name="radio" id="answer1">
+                <span class="radioMark"></span>
+              </label>
+              <label class="container" id="answer2">Answer 2
+                <input type="radio" name="radio"id="answer2">
+                <span class="radioMark"></span>
+              </label>
+              <label class="container"id="answer3">Answer 3
+                <input type="radio" name="radio"id="answer3">
+                <span class="radioMark"></span>
+              </label>
+              <label class="container"id="answer4">Answer 4
+                <input type="radio" name="radio"id="answer4">
+                <span class="radioMark"></span>
+              </label>
+
+              <!--
+              <div class="question">Question 5?</div>
+              <textarea placeholder="Describe yourself here..." minlength=15 rows=5 required/></textarea>
+
+            <div class="question">Email address: </div>
+            <input type="email" placeholder="Enter your email">
+            -->
+
+            <input type="submit" name="vote" class="vote" value="Submit vote!" class="submit-vote" onsubmit="alertAnswer()">
+        </form>
+    </section>
+</body>
+</html>
